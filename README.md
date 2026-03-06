@@ -1,2 +1,2 @@
-# client
-Baack headless content management client for content and digital experiences
+# Baack Javascript client
+Baack headless content management Javascript (ES6) client for content and digital experiences
