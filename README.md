@@ -1,4 +1,4 @@
-# Baack Javascript client
+# Baack Javascript content client
 Baack headless content management Javascript (ES6) client module for content and digital experiences.
 
 This client provides helper functionality for Javascript developers to easily integrate content managed on Baack into their sites.
