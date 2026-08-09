@@ -49,8 +49,8 @@ Baack content items use a sparse matrix approach to their naming with name / sor
 
 ```
   return (
-    <Section content={mv('section', 0)} />
-    <Section conetnt={mv('section', 1)} />
+    <Section content={markdownValue('section', 0)} />
+    <Section conetnt={markdownValue('section', 1)} />
   );
 ```
 
