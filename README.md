@@ -27,17 +27,17 @@ To give an example of the usage for a very simple React app you may include the 
 ```
 import {    
     readEntityView,
-    tv, // Text value shorthand function
-    mv // Markdown value shorthand function
+    textValue, // Text value shorthand function
+    markdownValue // Markdown value shorthand function
 } from baack-client;
 
 export default function MyApp() {
   let entity = await readEntityView('/home');
   entityContext(entity);
   return (
-    <h1>{tv('title')}</h1>
+    <h1>{textValue('title')}</h1>
     <div>
-      {mv('body')}      
+      {markdownValue('body')}      
     </div>
   );
 }
